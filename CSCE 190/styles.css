@@ -5,4 +5,17 @@ body{
 h1{
     color:brown;
     text-align: center;
+    .projects
+    { 
+        display:flex; 
+        flex-wrap:wrap; 
+    }
+    .project 
+    {
+        width: 30%;
+        margin: 10px;
+        padding: 20px 10px;
+        background: green;
+        border-radius: 25%;
+    }
 }
